@@ -117,6 +117,8 @@ src/main/resources/podcasts/
 
 
 songs.add(new Song(1, "Tum Hi Ho", "Arijit Singh", "Aashiqui 2", "Romance", "songs/TUM_HI_HO.wav"));
+
+
 ⚠️ Requirements:
 
 
@@ -131,7 +133,10 @@ Prefer PCM format for compatibility
 
 🧠 Design Overview
 
+
 The application follows a modular and object-oriented design:
+
+
 
 📌 Core Classes
 
@@ -139,7 +144,8 @@ The application follows a modular and object-oriented design:
 Song → Stores song details
 
 
-Podcast → Stores podcast data  
+Podcast → Stores podcast data
+
 
 Playlist → Manages user playlists
 
@@ -155,24 +161,61 @@ SampleData → Loads initial data
 
 Main → Entry point of application
 
+
 🎯 Key Concepts Demonstrated
+
+
 Object-Oriented Programming (Encapsulation, Modularity)
+
+
 Collection Framework (ArrayList)
+
+
 File handling using resources
+
+
 Exception handling
+
+
 Menu-driven application logic
+
+
 Maven project structure
 
+
+
 🚧 Limitations
+
+
 Supports only .wav files
+
+
 Console-based UI (no GUI)
+
+
 Data stored in-memory (no database)
+
+
 No automatic playlist queue system
 
+
+
 🚀 Future Enhancements
+
+
 GUI using JavaFX or Swing
+
+
 Database integration (MySQL / MongoDB)
+
+
 Support for MP3 files
+
+
 Streaming from external sources
+
+
 User login system
+
+
 Auto-play playlist queue
