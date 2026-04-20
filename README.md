@@ -80,7 +80,7 @@ JukeboxProject/
 │
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## ▶️ How to Run the Project
