@@ -101,32 +101,58 @@ mvn compile
 
 3. Run the application:
 mvn exec:java
-⚠️ Important Note (Audio Files)
+
+⚠️ Important Note (Audio Files)  
 
 Audio files are not included in this repository to keep it lightweight.
 
 To run the application:
 
 📂 Add .wav files here:
+```bash
 src/main/resources/songs/
 src/main/resources/podcasts/
+```
 🧠 Example:
+
+
 songs.add(new Song(1, "Tum Hi Ho", "Arijit Singh", "Aashiqui 2", "Romance", "songs/TUM_HI_HO.wav"));
 ⚠️ Requirements:
+
+
 File names must match exactly
+
+
 Use .wav format only
+
+
 Prefer PCM format for compatibility
+
+
 🧠 Design Overview
 
 The application follows a modular and object-oriented design:
 
 📌 Core Classes
+
+
 Song → Stores song details
-Podcast → Stores podcast data
+
+
+Podcast → Stores podcast data  
+
 Playlist → Manages user playlists
+
+
 AudioPlayer → Handles audio playback
+
+
 JukeboxService → Main application logic
+
+
 SampleData → Loads initial data
+
+
 Main → Entry point of application
 
 🎯 Key Concepts Demonstrated
