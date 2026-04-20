@@ -95,7 +95,7 @@ JukeboxProject/
 ```bash
 git clone https://github.com/your-username/JukeboxProject.git
 cd JukeboxProject
-
+```
 2. Compile the project:
 mvn compile
 
