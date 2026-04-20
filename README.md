@@ -53,28 +53,37 @@ This project demonstrates core **Object-Oriented Programming (OOP)** concepts al
 
 ---
 
-## 📁 Project Structure
 JukeboxProject/
-
+│
 ├── pom.xml
-
+│
 ├── src/
-
-│ ├── main/
-
-│ │ ├── java/org/example/
-│ │ │ ├── Main.java
-│ │ │ ├── JukeboxService.java
-│ │ │ ├── AudioPlayer.java
-│ │ │ ├── Song.java
-│ │ │ ├── Podcast.java
-│ │ │ ├── Playlist.java
-│ │ │ └── SampleData.java
-│ │ └── resources/
-│ │ ├── songs/
-│ │ └── podcasts/
-│ └── test/
-
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── org/example/
+│   │   │       ├── Main.java
+│   │   │       ├── JukeboxService.java
+│   │   │       ├── AudioPlayer.java
+│   │   │       ├── Song.java
+│   │   │       ├── Podcast.java
+│   │   │       ├── Playlist.java
+│   │   │       └── SampleData.java
+│   │   │
+│   │   └── resources/
+│   │       ├── songs/
+│   │       │   ├── AMPLIFIER.wav
+│   │       │   ├── BOYFRIEND.wav
+│   │       │   └── ... (your 19 songs)
+│   │       │
+│   │       └── podcasts/
+│   │           ├── podcast1.wav
+│   │           └── podcast2.wav
+│   │
+│   └── test/
+│       └── java/
+│
+├── .gitignore
+└── README.md
 ---
 
 ## ▶️ How to Run the Project
