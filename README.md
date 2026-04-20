@@ -55,9 +55,13 @@ This project demonstrates core **Object-Oriented Programming (OOP)** concepts al
 
 ## 📁 Project Structure
 JukeboxProject/
+
 ├── pom.xml
+
 ├── src/
+
 │ ├── main/
+
 │ │ ├── java/org/example/
 │ │ │ ├── Main.java
 │ │ │ ├── JukeboxService.java
