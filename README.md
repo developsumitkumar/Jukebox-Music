@@ -52,7 +52,9 @@ This project demonstrates core **Object-Oriented Programming (OOP)** concepts al
 | OOP Concepts | Design & structure |
 
 ---
+## 📁 Project Structure
 
+```text
 JukeboxProject/
 │
 ├── pom.xml
@@ -71,19 +73,14 @@ JukeboxProject/
 │   │   │
 │   │   └── resources/
 │   │       ├── songs/
-│   │       │   ├── AMPLIFIER.wav
-│   │       │   ├── BOYFRIEND.wav
-│   │       │   └── ... (your 19 songs)
-│   │       │
 │   │       └── podcasts/
-│   │           ├── podcast1.wav
-│   │           └── podcast2.wav
 │   │
 │   └── test/
 │       └── java/
 │
 ├── .gitignore
 └── README.md
+
 ---
 
 ## ▶️ How to Run the Project
