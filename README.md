@@ -8,7 +8,7 @@
 
 The Jukebox Application is a command-line music management system inspired by the classic jukebox experience. Users can browse songs and podcasts, build custom playlists, and play audio files — all from an intuitive console menu.
 
-Built as part of the **NIIT StackRoute Full Stack Development Program**, this project showcases Java fundamentals applied to a practical, real-world use case.
+
 
 ---
 
